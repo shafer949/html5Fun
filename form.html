@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>All About Forms</h1>
+    <a href="index.html">Home Page</a>
+    <hr />
+    <form action="https://www.google.com/search" method="GET">
+      <div>
+        <label for="search">Search Google: </label>
+        <input id="search" type"text" value="" name="q" placeholder="Search"/>
+      </div>
+      <div>
+        <label for="nameField">Name: </label>
+        <input id="nameField" type"text" value="" name="text"
+        placeholder="Name"/>
+      </div>
+      <hr />
+      <div>
+        <label>Are you having fun: </label>
+        <label for="checkboxYes">Yes</label>
+        <input id="checkboxYes" type="checkbox" name="checkbox" value="1" />
+        <label for="checkboxNo">No</label>
+        <input id="checkboxNo" type="checkbox" name="checkbox" value="2" />
+      </div>
+      <hr />
+      <div>
+        <label for="radioGroup1">Are you sleepy?</label>
+        <label for="radio1">Yes</label>
+        <input id="radio1" type="radio" name="group1" checked value="Yes1" />
+        <label for="radio2">No</label>
+        <input id="radio2" type="radio" name="group1" value="No1" />
+        <hr />
+        <label for="radioGroup2">Are you hungry?</label>
+        <label for="radioGroup1Yes">Yes</label>
+        <input id="radioGroup1Yes" type="radio" name="group2" value="Yes2" />
+        <label for="radioGroup2No">No</label>
+        <input
+          id="radioGroup2No"
+          type="radio"
+          name="group2"
+          checked
+          value="No2"
+        />
+      </div>
+      <hr />
+      <div>
+        <div>
+          <label for="textarea">Tell me how you feel:</label>
+        </div>
+        <textarea id="textarea" name="textarea">
+Text goes here
+        </textarea>
+      </div>
+      <hr />
+      <div>
+        <label for="select">What is your mood?</label>
+        <select id="select" name="select">
+          <option value="sad">Sad</option>
+          <option selected value="happy">Happy</option>
+          <option value="angry">Angry</option>
+          <option value="blah">Blah</option>
+        </select>
+      </div>
+      <hr />
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
