@@ -44,6 +44,10 @@ header {
   text-align: center;
 }
 
+.menu button {
+  font-size: 16px;
+}
+
 .center {
   padding-top: 20px;
   margin: auto;
@@ -51,4 +55,5 @@ header {
   border: 3px solid green;
   padding: 10px;
   text-align: center;
+  min-width: fit-content;
 }
