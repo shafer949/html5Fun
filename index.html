@@ -4,20 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Static Template</title>
   </head>
   <body>
-    <h1>Home Page</h1>
-    <a href="elements.html">Elements</a>
-    <hr />
-    <a href="form.html">Forms</a>
-    <hr />
-    <a href="playground.html">Playground</a>
-    <hr />
-    <a href="googleSearchForm.html"> Google Search Form</a>
-    <hr />
-    <a href="https://www.google.com" target="_blank"> Google Link</a>
-    <hr />
+    <header>
+      <div class="menu">
+        <button
+          class="navBtn"
+          id="elementsBtn"
+          onclick="location.href='elements.html';"
+        >
+          Elements
+        </button>
+        <button
+          class="navBtn"
+          id="jdFormBtn"
+          onclick="location.href='form.html';"
+        >
+          JD Form
+        </button>
+        <button
+          class="navBtn"
+          id="playgroundBtn"
+          onclick="location.href='playground.html';"
+        >
+          Playground
+        </button>
+        <button
+          class="navBtn"
+          id="googleSearchBtn"
+          onclick="location.href='googleSearchForm.html';"
+        >
+          Search Google
+        </button>
+        <button
+          class="navBtn"
+          id="googleBtn"
+          onclick="location.href='https://www.google.com';"
+        >
+          Google
+        </button>
+        <button
+          class="navBtn"
+          id="contactBtn"
+          onclick="location.href='contactForm.html';"
+        >
+          Contact Form
+        </button>
+      </div>
+    </header>
+    <div class="center">
+      <h1>Learning Is Fun</h1>
+
+      <img src="54532.png" />
     </div>
   </body>
 </html>

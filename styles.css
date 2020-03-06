@@ -1,0 +1,54 @@
+form {
+  background-color: green;
+  border: 2px solid;
+}
+
+form div {
+  background-color: yellow;
+  height: 20px;
+  margin: 20px;
+}
+
+form div.textArea {
+  height: 60px;
+}
+
+form div.textAreaLabel {
+  margin: 0px;
+}
+
+form .dropdown {
+  height: 40px;
+}
+
+form .dropdown .options {
+  display: none;
+  margin: 0px;
+  width: 70px;
+}
+
+form .dropdown:hover .options {
+  display: block;
+}
+
+header {
+  border-bottom: 2px solid gray;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+.menu {
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.center {
+  padding-top: 20px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}

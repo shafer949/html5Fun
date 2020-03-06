@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="contactPageStyles.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <header>
+        <img src="54543.png" />
+        <div class="menu">
+            <div class="dropdown">
+              <button class="linksBtn">Links</button>
+              <div class="linksContent">
+                <a href="elements.html">Elements</a>
+                <a href="form.html">Forms</a>
+                <a href="playground.html">Playground</a>
+                <a href="googleSearchForm.html"> Google Search</a>
+                <a href="https://www.google.com" target="_blank"> Google</a>
+              </div>
+            </div>
+            <div class="homeBtnContainer">
+              <button
+                class="homeBtn"
+                id="homeBtn"
+                onclick="location.href='index.html';"
+              >
+                Home
+              </button>
+            </div>
+          </div>
+    </header>
+      <h1>Contact Form</h1>
+     
+      <div class="container">
+        <form>
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="name" placeholder="Your name..">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <div class="terms">
+              <input
+              class="checkbox"
+              id="checkboxAgree"
+              type="checkbox"
+              name="checkbox"
+              value="1"
+            />
+          <label for="checkboxAgree">Do you agree to submit?</label>
+        </div>
+         
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+      
+        </form>
+
+        <footer>
+            <footer>&copy; Copyright 2020 FED Training</footer>
+        </footer>
+  </body>
+</html>
